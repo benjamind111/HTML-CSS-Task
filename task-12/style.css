@@ -1,0 +1,27 @@
+.overall{
+    background-color: lightgrey;
+    width: 100%;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 257px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+button{
+    margin-left: 110px;
+    background-color: darkmagenta;
+    border-radius: 5px;
+    border: 2px solid darkmagenta;
+    color: white;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    position: fixed;
+    top: 395px;
+
+}
