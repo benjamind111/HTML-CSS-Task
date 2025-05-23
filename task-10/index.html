@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-12 task-2</title>
+    <script src="https://kit.fontawesome.com/1af0b633e4.js" crossorigin="anonymous"></script>
+    <style>
+        div{
+            /* display: flex;
+            justify-content: center; */
+            border: 2px solid lightskyblue;
+            padding: 10px;
+            margin: 0px 90px;
+            margin-top: 40px;
+        }
+        .si{
+            padding: 20px 30px;
+        }
+        .img{
+            padding: 20px 60px;
+        }
+        .name{
+            padding: 20px 150px;
+        }
+        .action{
+            padding: 20px 90px;
+        }
+        .phn,.team{
+            padding: 20px 100px;
+        }
+        th{
+            background-color: rgb(0, 183, 255);
+            color: white;
+        }
+        table,td,tr,th{
+            border: 2px solid grey;
+            border-collapse: collapse;
+        }
+        th{
+            padding: 0px;
+        }
+        .si2,.img2,.name2,.phn2,.team2,.action2{
+            background-color: rgb(194, 194, 194);
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+            <th class="si">SI</th>
+            <th class="img">Image</th>
+            <th class="name">Name</th>
+            <th class="phn">Phone</th>
+            <th class="team">Team</th>
+            <th class="action">Action</th>
+        </tr>
+        <tr>
+            <td class="si1" style="text-align: center; font-size: 18px;">01</td>
+            <td class="img1" ><img src="./19-Lamine-M.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name1" style="text-align: left; padding-left: 20px;">Lamine Yamal (c)<span> </i> </span> <span> <i class="fa-solid fa-futbol" style="padding-left: 170px;"></i></i></span></td>
+            <td class="phn1" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team1" style="text-align: center;">FC BARCELONA</td>
+            <td class="action1" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si2" style="text-align: center; font-size: 18px;">02</td>
+            <td class="img2" ><img src="./lewa.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name2" style="text-align: left; padding-left: 20px;">Robert Lewandowski<span> <i class="fa-solid fa-plane" style="padding-left: 125px;"></i> </span> <span> <i class="fa-solid fa-futbol"></i></i></span></td>
+            <td class="phn2" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team2" style="text-align: center;">FC BARCELONA</td>
+            <td class="action2" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si1" style="text-align: center; font-size: 18px;">03</td>
+            <td class="img1" ><img src="./dejong.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name1" style="text-align: left; padding-left: 20px;">Frenkie De Jong<span> <i class="fa-solid fa-plane" style="padding-left: 153px;"></i> </span> <span> <i class="fa-solid fa-futbol"></i></i></span></td>
+            <td class="phn1" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team1" style="text-align: center;">FC BARCELONA</td>
+            <td class="action1" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si2" style="text-align: center; font-size: 18px;">04</td>
+            <td class="img2" ><img src="./rapi.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name2" style="text-align: left; padding-left: 20px;">Raphinha<span> <i class="fa-solid fa-plane" style="padding-left: 195px;"></i> </span> <span> <i class="fa-solid fa-futbol"></i></i></span></td>
+            <td class="phn2" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team2" style="text-align: center;">FC BARCELONA</td>
+            <td class="action2" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si1" style="text-align: center; font-size: 18px;">05</td>
+            <td class="img1" ><img src="./arouja.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name1" style="text-align: left; padding-left: 20px;">Ronald Araujo<span> <i class="fa-solid fa-plane" style="padding-left: 160px;"></i> </span> <span> <i class="fa-solid fa-futbol"></i></i></span></td>
+            <td class="phn1" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team1" style="text-align: center;">FC BARCELONA</td>
+            <td class="action1" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si2" style="text-align: center; font-size: 18px;">06</td>
+            <td class="img2" ><img src="./gavi.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name2" style="text-align: left; padding-left: 20px;">Gavi<span> <i class="fa-solid fa-plane" style="padding-left: 220px;"></i> </span> <span> <i class="fa-solid fa-futbol"></i></i></span></td>
+            <td class="phn2" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team2" style="text-align: center;">FC BARCELONA</td>
+            <td class="action2" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si1" style="text-align: center; font-size: 18px;">07</td>
+            <td class="img1" ><img src="./pedri.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name1" style="text-align: left; padding-left: 20px;">Pedri<span> <i class="fa-solid fa-futbol" style="padding-left: 240px;"></i></i></span></td>
+            <td class="phn1" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team1" style="text-align: center;">FC BARCELONA</td>
+            <td class="action1" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si2" style="text-align: center; font-size: 18px;">08</td>
+            <td class="img2" ><img src="./ansu.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name2" style="text-align: left; padding-left: 20px;">Ansu Fati<span>  <span> <i class="fa-solid fa-futbol" style="padding-left: 210px;"></i></i></span></td>
+            <td class="phn2" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team2" style="text-align: center;">FC BARCELONA</td>
+            <td class="action2" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si1" style="text-align: center; font-size: 18px;">09</td>
+            <td class="img1" ><img src="./kounde.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name1" style="text-align: left; padding-left: 20px;">Jules Kounde<span> <i class="fa-solid fa-plane" style="padding-left: 165px;"></i> </span> <span> <i class="fa-solid fa-futbol"></i></i></span></td>
+            <td class="phn1" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team1" style="text-align: center;">FC BARCELONA</td>
+            <td class="action1" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="si2" style="text-align: center; font-size: 18px;">10</td>
+            <td class="img2" ><img src="./ter.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%; border: 5px solid lightgrey; margin: 10px 40px;"></td>
+            <td class="name2" style="text-align: left; padding-left: 20px;">Ter Stegen (wk)<span> <i class="fa-solid fa-plane" style="padding-left: 150px;"></i> </span> <span> <i class="fa-solid fa-futbol"></i></i></span></td>
+            <td class="phn2" style="text-align: center;">880 017xx-xxxxxxxxxxxxxxxx</td>
+            <td class="team2" style="text-align: center;">FC BARCELONA</td>
+            <td class="action2" style="">
+                <span style="display: flex; justify-content: center; margin: 10px 10px;">
+                <input type="button" value="Edit"  style="margin-right: 10px; padding: 5px 20px; border: 3px solid skyblue; ">
+                <input type="button" value="Remove" style="margin-right: 0px; padding: 5px 30px; border: 3px solid orange;"></span>
+            </td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
