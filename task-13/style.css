@@ -1,0 +1,13 @@
+.heading{
+    width: 230px;
+    height: 50px;
+    background-color: mediumslateblue;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+}
+.des{
+    width: 230px;
+    height: 130px;
+    background-color: rgb(192, 228, 250);
+    border-radius: 0px 0px 5px 5px;
+}
