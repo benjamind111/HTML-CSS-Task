@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(./pastel-rainbow-fish-scales-seamless-pattern-free-vector.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+}
+nav{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.heading{
+    font-size: 40px;
+    margin: 10px;
+}
+.inner{
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px 0px 0px 20px;
+    position: relative;
+    box-shadow: 0px 0px 8px black;
+}
+.icon{
+    position: absolute;
+    right: 25px;
+    bottom: -20px;
+}
+.layer2{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.box1{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+    padding: 10px;
+    position: relative;
+}
+.box2{
+    background-color: white;
+    width: 300px;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    padding: 10px;
+    position: relative;
+}
+.box3{
+    background-color: white;
+    width: 300px;
+    height: 240px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    padding: 10px;
+    position: relative;
+}
+.box4{
+    background-color: white;
+    width: 310px;
+    height: 290px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    padding: 10px;
+    position: relative;
+}
+.icon-2{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
